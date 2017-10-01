@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.wap{
+	width: 90%;
+	margin: auto;
+}
+nav{
+	padding-top: 24px; /*esto es para que las letras bajen y se centren ,todo lo que este en nav baja */
+	box-sizing: border-box;
+	text-decoration:none;
+}
+nav  a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration:none;/*para que no tenga ninguna decoracion*/
+	text-transform:uppercase;/*para pasar a mayuscula las letras*/
+	padding-left: 15px;/*ahora un paddin para que las letyras esten separadas unas del as otras*/
+  padding-top: 15px;
+  font-weight:bold;/*para las letras en negrita*/
+  font-size: 18px;
+  transition: 0.5s;
+	}
+  nav  a:hover{
+    font-size: 20px;
+    color: #000;
+    text-decoration:none;
+    transition: 0.5s;
+  }
+
+.logo a{
+color: #000;
+}
+.bajar h1{
+  padding-top: 10px;
+
+}
+.boton{
+  width: 170px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+#carrito a{
+  color: #fff;
+
+}
+.contenedor-columnas{
+	width: 100;
+	margin: auto;
+	padding-top: 30px;
+	margin-bottom: 50px; /*margen de 50 para q no se egue el div*/
+}
+.contenedor-columnas h2{
+text-align: center;
+}
+.mover{
+  padding-top: 60px;
+}
+.columna{
+	width: 25%; /*para que se adapte ala pantalla*/
+	float: left;
+	padding: 20px 20px;        /*esta 2 cosas las hago para que deje una separacion*/
+	box-sizing: border-box;
+	margin: auto;
+  margin-top: 10px;
+}
+
+.columna h4{
+	padding-bottom: 20px; /*para que baje del las otras letras*/
+  color: #022b89;
+  font-weight: bold;
+}
+.p{
+width: 50%;
+float: left;
+}
+
+.p2{
+  padding-right: 2px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.columna img{
+	width: 100%; /*esto para que ocupen todo lo mismo y s evea mejor*/
+}
+.nuevo{
+  clear: both;
+}
+.botom{
+  float: right;
+  margin-top: 20px;
+}
+.contacto h3{
+  padding-top: 80px;
+
+}
+footer{
+  background-color: #03153e;
+  align-self: flex-end;
+  margin-top: 65px;
+  line-height: 3;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%
+}
+.division{
+width: 20%;
+float: left;
+box-sizing: border-box;
+
+}
+footer img{
+  width: 100%;
+}
+footer p{
+clear: both;
+}
+
+.wape{
+  width: 60%;
+  margin: auto;
+}
+
+form h2{
+  margin-top: 50px;
+  text-align: center;
+}
